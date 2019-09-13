@@ -6,16 +6,28 @@ nav {
     margin: 5px;
     .center();
 
+    @media @mobile {
+        // background-color: red;
+        width: 100%;
+    }
+
     h2 {
         height: 50%;
         padding-top: 30px;
         .center();
+        @media @mobile {
+            
+        }
     }
 
     .links {
         width: 70%;
         padding-left: 300px;
         .center();
+        @media @mobile {
+            width: 100%;
+            padding-left: 0px;
+        }
     }
 
     a {
@@ -27,5 +39,9 @@ nav {
         font-size: 1.6rem;
         padding-top: 10px;
         .center();
+        color: @ebony-clay;
+        @media @mobile {
+            
+        }
     }
 }
