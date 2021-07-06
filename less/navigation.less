@@ -1,1 +1,43 @@
-// Navigation code here
+nav {
+    flex-direction: column;
+    // background-color: red;
+    width: 800px;
+    height: 150px;
+    margin: 0 auto;
+    .center();
+
+    @media @mobile {
+        // background-color: red;
+        width: 100%;
+    }
+
+    h2 {
+        height: 50%;
+        padding-top: 30px;
+        .center();
+    }
+
+    .links {
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        .center();
+        @media @mobile {
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    a {
+        flex-direction: row;
+        width: 50%;
+        // background-color: aqua;
+        height: 40px;
+        text-decoration: none;
+        font-size: 1.6rem;
+        padding-top: 10px;
+        .center();
+        color: @ebony-clay;
+    }
+}
